@@ -2,7 +2,7 @@
 
 ## Dataset
 
-Currently, only a demo dataset is provided, containing charge and discharge data for 20 individual 15.5Ah battery cells. The complete raw_data dataset (containing 106,693 battery cells) will be updated after the paper is accepted.
+Currently, only a demo dataset is provided, containing charge and discharge data for 20 individual 15.5 Ah battery cells. The complete raw_data dataset, comprising 106,693 battery cells, will be released publicly on Kaggle after the paper is accepted, at https://www.kaggle.com/datasets/liuyunlong0621/relib-100k.
 
 ------
 
@@ -24,6 +24,7 @@ The functions of the executable scripts are as follows:
    A batch execution script for model benchmark experiments.
 - **4_1_results2xlsx.py**
    Aggregates experiment results and exports them to Excel format.
+
 
 
 
