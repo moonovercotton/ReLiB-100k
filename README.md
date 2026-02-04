@@ -11,7 +11,7 @@ Currently, only a demo dataset is provided, containing charge and discharge data
 The functions of the executable scripts are as follows:
 
 - **1_2_generate_dataset.py**
-   Randomly samples batteries from the raw data, performs uniform downsampling, and generates the experimental dataset with an 8:1:1 split for training, validation, and testing.
+   The complete dataset is divided into training, validation, and test sets in an 8:1:1 ratio based on random seeds, and each charging curve is downsampled to the same length of 512.
 - **3_1_contrastive_pre_train.py**
    Performs contrastive learning pre-training for the CapCLR model.
 - **3_2_finetune.py**
@@ -24,5 +24,6 @@ The functions of the executable scripts are as follows:
    A batch execution script for model benchmark experiments.
 - **4_1_results2xlsx.py**
    Aggregates experiment results and exports them to Excel format.
+
 
 
