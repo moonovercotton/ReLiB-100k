@@ -2,9 +2,7 @@
 
 ## Dataset
 
-The data under the `data/generated_data` directory are obtained by uniformly sampling 3,000 batteries from each nominal capacity category and downsampling their charging curve length to 512. This dataset is used for all benchmark experiments in the paper.
-
-Currently, only the 15.5 Ah subset is publicly available. The remaining subsets of other nominal capacities, as well as the raw data under the `data/raw_data` directory, will be released after the acceptance of the paper.
+Currently, only a demo dataset is provided, containing charge and discharge data for 20 individual 15.5Ah battery cells. The complete raw_data dataset (containing 106,693 battery cells) will be updated after the paper is accepted.
 
 ------
 
@@ -26,4 +24,5 @@ The functions of the executable scripts are as follows:
    A batch execution script for model benchmark experiments.
 - **4_1_results2xlsx.py**
    Aggregates experiment results and exports them to Excel format.
+
 
