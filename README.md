@@ -3,6 +3,7 @@
 ## Dataset
 
 Currently, only a demo dataset is provided, containing charge and discharge data for 20 individual 15.5 Ah battery cells. The complete raw_data dataset, comprising 106,693 battery cells, will be released publicly on Kaggle after the paper is accepted, at https://www.kaggle.com/datasets/liuyunlong0621/relib-100k.
+
 **Update (2026-05-26): The complete dataset has been uploaded publicly.**
 
 ------
